@@ -1,0 +1,5 @@
+# Debug a CLI command
+
+In order to debug a CLI command with PHPStorm. Add this ``` XDEBUG_CONFIG=idekey=phpstorm ``` in front of the command.
+
+``` XDEBUG_CONFIG=idekey=phpstorm bin/magento setup:upgrade ```
